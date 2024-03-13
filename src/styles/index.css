@@ -47,10 +47,15 @@
 
         display: flex;
         flex-direction: column;
-        gap: 100px;
+        justify-content: center;
         border: 1px solid black;
-        
+        gap: 16px;        
     }
+
+
+
+
+
     .Olá{
         font-size: 20px;
         color: #445964;
@@ -70,14 +75,11 @@
         width: 200px;
         height: 200px;
     }
-    .bb{
-        width: 349px;
-        height: 167px;
-    }
+
     button{
         background-color: #263138;
         border: 1px 1px solid #FFFFFF;
-        width: 310px;
+        width: 200px;
         height: 65px;
         color: #FFFFFF;
         border-radius: 20px;
