@@ -17,6 +17,7 @@ header{
   width: 100%;
   align-items: center;
   justify-content: space-around;
+  margin-top: 50px;
 }
 header :first-child{
   display: flex;
@@ -40,8 +41,8 @@ main{
   display: flex;
   height: 697px;
   margin-top: 100px;
-  
   width: 1417px;
+
 }
 .Olá{
   font-size: 24px;
@@ -74,13 +75,200 @@ main{
 .boneco{
   width: 705px;
   height: 697px;
- 
 }
 .imagens{
  display: flex;
  align-self: start;
  gap: 16px;
  margin-left: 250px;
+}
+.Hard-skills{
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+.Hard-skills :first-child{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo2{
+  width: 128px;
+}
+.José-section{
+  font-size: 64px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #445964;
+  
+}
+.Hard-skills>p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 24px;
+  color: #445964;
+  width: 950px;
+  height: 56px;
+} 
+.Hard{
+  font-size: 64px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #263138;
+  display: flex;
+  gap: 16px;
+}
+.Skills{
+  font-size: 64px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #445964;   
+}  
+.Programas{
+  width: 998px;
+  height: 267px;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 16px;
+  margin-top: 50px;   
+}
+.projetos{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 500px;
+  margin-top: 100px;
+}
+
+.My{
+  color: #263138;
+  font-size: 64px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.port{
+  color: #445964;
+  font-size: 64px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  gap: 90px;
+}
+.port>p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #445964;
+  font-size: 24px;
+  width: 398px;
+}
+.Todos{
+  width: 125px;
+  height: 65px;
+  border-radius: 20px;
+  background-color: #263138;
+  font-size: 24px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #FFFFFF;
+}
+.botões{
+  display: flex;
+  gap: 16px;
+  
+}
+
+.Web{
+  width: 125px;
+  height: 65px;
+  border-radius: 20px;
+  background-color: #DFDFDF;
+  font-size: 24px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #445964;
+}
+.Back{
+  width: 125px;
+  height: 65px;
+  border-radius: 20px;
+  background-color: #DFDFDF;
+  font-size: 24px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #445964;
+}
+.Outros{
+  width: 125px;
+  height: 65px;
+  border-radius: 20px;
+  background-color: #DFDFDF;
+  font-size: 24px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #445964;
+}
+
+.my-techs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 90px;
+  text-align: center;
+  margin-top: 100px;
+}
+.Minhas{
+  font-size: 64px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #263138;
+}
+.Tech{
+  font-size: 64px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #445964;   
+}
+.utilizadas>p{
+  font-size: 24px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #445964;
+}
+.utilizadas>h2{
+  color: #445964;
+  font-size: 36px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.utilizadas>h2>span{
+  color: #263138;
+  font-size: 36px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logos{
+  display: flex;
+  gap: 46px;
+}
+.desenvolvendo>p{
+  font-size: 24px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #445964;
+}
+.desenvolvendo>h2{
+  color: #445964;
+  font-size: 36px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.desenvolvendo>h2>span{
+  color: #263138;
+  font-size: 36px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logos-dev{
+  display: flex;
+  gap: 46px;
+  margin-top: 36px;
+}
+footer{
+  width: 100%;
+  gap: 30px;
+  margin-top: 100px;
+  text-align: center;  
+}
+footer>h1{
+  color: #263138;
+  font-size: 36px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -99,8 +287,7 @@ main{
   }
   nav{
     flex-wrap: wrap;
-    gap: 50px;
-    
+    gap: 50px; 
     justify-content: center;
     width: 332px;
   }
@@ -109,7 +296,7 @@ main{
     align-items: center;
     width: 350px;
     height: 600px;
-    
+  
   }
   
   .Olá {
@@ -117,10 +304,10 @@ main{
     color: #445964;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
-}
+  }
 .EU {
     font-size: 30px;
-    color: #263138;
+    color: #445964;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
@@ -139,10 +326,86 @@ main{
   .bb{
     gap: 100px;
     align-items: center;
+    
   }
+  .bb :first-child{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;  
+}
   .imagens{
-    margin-left: 150px;
+    justify-content: center;
+    margin-left: 0px;
+    align-self: center;
   }
+  .Hard-skills :first-child{
+    flex-direction: row;
+  }
+  .logo2{
+    width: 50px;
+  }
+  .José-section{
+    font-size: 36px;
+  }
+  .Hard-skills>p{
+    font-size: 14px;
+    width: 372px;
+  }
+  .Hard{
+    font-size: 46px;
+  }
+  .Skills{
+    font-size: 46px;
+  }
+  .Programas{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 200px;
+  }
+  .m-port{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .port{
+    flex-direction: column;
+    gap: 40px;
+  }
+  .botões{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .projetos{
+    align-items: center;
+    padding-left: 0px;
+    gap: 50px;
+    margin-top: 700px;
+  }
+  .Minhas{
+    display: flex;
+    flex-direction: column;
+  }
+  .desenvolvendo>h2{
+    font-size: 26px;
+  }
+  .desenvolvendo>h2>span{
+    font-size: 26px;
+}
+.logos-dev{
+  flex-wrap: wrap;
+  width: 268px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40px;
+}
+.imagens-ff{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
 }
 
 
